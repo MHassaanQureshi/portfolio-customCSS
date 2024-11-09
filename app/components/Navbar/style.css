@@ -1,0 +1,68 @@
+.container{
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+.container2{
+  max-width: 1200px; 
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #dc2626;
+  font-weight: bold;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.block{
+  display: block;
+}
+.whitetext:focus {
+  color: white;
+  outline: none;
+}
+.size {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.Nav {
+  display: none;
+}
+
+.Navtext{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+
+.Links:hover {
+  border-bottom-width: 2px;
+  border-bottom-color: #b91c1c;
+}
+
+.mobile{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ 
+}
+.links-mobile{
+  padding: 10px;
+}
+@media (min-width: 1024px) {
+  .block {
+    display: none;
+  }
+  .Nav {
+    display: flex;
+    gap: 2rem;
+    
+}
+  
+}
